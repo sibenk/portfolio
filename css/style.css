@@ -1,0 +1,77 @@
+html {
+    position: relative;
+}
+body {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.jumbotron h3 {
+    font-style: italic;
+    color: rgb(224, 10, 10);
+    font-size: xx-large;
+    text-shadow: rgb(255, 255, 255);
+}
+.jumbotron p{
+    color: rgb(224, 10, 10);
+    text-shadow: 1px 1px 10px rgba(12, 223, 135, 0.5);
+}
+.jumbotron {
+    height: 500px;
+    background-image: url('../img/10.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:0 -90px;
+    color: rgb(251, 253, 252);
+}
+
+.jumbotron img {
+    width: 200px;
+    border: 5px solid #f00e0e;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1 {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+    width: 250px;
+    border-top: 2px solid rgb(92, 87, 87);
+}
+
+section {
+    min-height: 500px;
+}
+
+
+.portfolio {
+    background-color: rgb(179, 171, 171);
+    padding-top: 3rem;
+}
+
+.contact {
+    padding-top: 3rem;
+    min-height: 700px;
+}
+.about {
+    padding-top: 3rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(90, 221, 177);
+    padding-top: 30px;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 0,9em;
+}
+
+footer p i{
+    color: salmon;
+}
+
